@@ -1,0 +1,31 @@
+body{
+    display: flex;
+}
+.topwear{
+    filter: drop-shadow(0 50px 30px rgba(16, 100, 174, 0.4));
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+.grid-content{
+    margin-top: 7rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 9rem;
+    grid-gap: 6rem;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 20px;
+    background: rgba(16, 100, 174, 0.4);
+    color: aliceblue;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
